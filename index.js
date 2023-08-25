@@ -1,8 +1,6 @@
 const http = require('http');
 const fs = require('fs');
 const requests = require('requests');
-const { error } = require('console');
-const { json } = require('stream/consumers');
 const homeFile = fs.readFileSync("home.html", 'utf-8');
 require('dotenv').config()
 
